@@ -154,9 +154,10 @@ nav{
     align-content: center;
     background-color: rgba(230, 230, 250, 0.178);
     background-position: center;
-    margin-left: 0;
     min-height: 100vh;
-    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
 }   
 
 .job-text h1{
@@ -172,7 +173,7 @@ nav{
 .p1{
     margin-top: 40px;
     gap: 5px;
-    font-size:25px;
+    font-size: 2rem;
     color:#fff;
 }
 
@@ -228,5 +229,25 @@ nav{
     background-size : cover; 
     position : relative;
 }
+
+.top {
+    place-self:end;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    position: sticky;
+    bottom: 20px; 
+    margin-top:100vh;
+    --offset: 100px; 
+    margin-top: calc(100vh + var(--offset));
+    white-space:nowrap;
+  }
+  body {
+    display: grid;
+    grid-template-columns: auto 0px;
+  }
 
 
